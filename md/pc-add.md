@@ -10,7 +10,7 @@ pc-add --add [tipo]
 
 ## Parámetro necesario:
 
-* `\--add` = Elige qué tipo de archivo añadir al proyecto
+* `--add` = Elige qué tipo de archivo añadir al proyecto
 
 ## Parámetro opcional:
 

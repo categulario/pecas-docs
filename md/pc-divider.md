@@ -17,7 +17,7 @@ pc-divider -f [archivo a dividir]
 * `-d` = [directory] Directorio donde se pondrán los archivos creados.
 * `-s` = [style sheet] Ruta al archivo +++CSS+++ que se desea vincular.
 * `-i` = [index] Índice con el que ha de comenzar la numeración del nombre de los archivos creados.
-* `\--section` = Divide el documento cada &lt;section&gt;.
+* `--section` = Divide el documento cada &lt;section&gt;.
 
 ## Parámetros únicos:
 

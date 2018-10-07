@@ -12,9 +12,9 @@ pc-doctor
 
 * `-v` = [version] Muestra la versión.
 * `-h` = [help] Muestra esta ayuda.
-* `\--update` = Actualiza Pecas.
-* `\--restore` = Restaura Pecas.
-* `\--install-dependencies` = Instala dependencias de Pecas.
+* `--update` = Actualiza Pecas.
+* `--restore` = Restaura Pecas.
+* `--install-dependencies` = Instala dependencias de Pecas.
 
 ## Ejemplo sencillo:
 

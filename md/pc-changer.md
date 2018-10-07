@@ -16,11 +16,11 @@ pc-changer
 ## Parámetros necesarios:
 
 * `-e` = [epub] Archivo +++EPUB+++.
-* `\--version` = Versión a convertir.
+* `--version` = Versión a convertir.
 
 ## Parámetro opcional:
 
-* `\--standalone` = No elimina el proyecto +++EPUB+++; ideal para hacer cambios manuales.
+* `--standalone` = No elimina el proyecto +++EPUB+++; ideal para hacer cambios manuales.
   
 ## Parámetros únicos:
 
@@ -47,4 +47,4 @@ Convertirá como el ejemplo anterior, pero sin eliminar la carpeta de proyecto q
 
 Nota: no se permite la conversión de versiones 3 a 2. {.espacio-arriba3}
 
-Nota: cuando se pasa de versiones 2 a 3 es muy recomendado utilizar la opción `\--standalone` por si es necesario hacer cambios manuales para evitar errores en la verificación. {.espacio-arriba1 .sin-sangria}
+Nota: cuando se pasa de versiones 2 a 3 es muy recomendado utilizar la opción `--standalone` por si es necesario hacer cambios manuales para evitar errores en la verificación. {.espacio-arriba1 .sin-sangria}

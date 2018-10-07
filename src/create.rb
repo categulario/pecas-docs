@@ -5,11 +5,14 @@
 require 'fileutils'
 require 'yaml'
 
+# OJO: este repositorio requiere tener el repositorio hermano de Pecas
+#      con el nombre 'pecas'
+
 Encoding.default_internal = Encoding::UTF_8
 
 # Funciones y módulos comunes a todas las herramientas
-require File.expand_path("../../..", File.absolute_path(__FILE__)) + '/src/common/xhtml-beautifier.rb'
-require File.expand_path("../../..", File.absolute_path(__FILE__)) + "/src/common/lang.rb"
+require File.expand_path('../../..', File.absolute_path(__FILE__)) + '/pecas/src/common/xhtml-beautifier.rb'
+require File.expand_path('../../..', File.absolute_path(__FILE__)) + '/pecas/src/common/lang.rb'
 
 $tools_md = {}
 tools = [
@@ -75,10 +78,6 @@ def create_md tool
         return l.gsub(/^(\S+)/, '`\1`')
     end
 
-    def avoid_endash l
-        return l.gsub('--','\\--')
-    end
-
     new.push('# ' + $l_g_pc_docs_creation + '`' + tool[0] + '`')
 
     original.each_with_index do |l, i|
@@ -96,9 +95,9 @@ def create_md tool
                     if !note
                         new.push("--- {.espacio-arriba3}\n\n")
                         note = true
-                        new.push(avoid_endash(l) + ' {.espacio-arriba3}')
+                        new.push(l + ' {.espacio-arriba3}')
                     else
-                        new.push(avoid_endash(l) + ' {.espacio-arriba1 .sin-sangria}')
+                        new.push(l + ' {.espacio-arriba1 .sin-sangria}')
                     end                    
                 # Descripción
                 else
@@ -113,7 +112,7 @@ def create_md tool
 
                 # Opciones de Pecas
                 if l =~ /^-/
-                    new.push('* ' + to_code_option(avoid_endash(l)))
+                    new.push('* ' + to_code_option(l))
                 # Comandos de Pecas
                 elsif l =~ /^pc-/
                     new.push('```')
@@ -121,7 +120,7 @@ def create_md tool
                     new.push('```')
                 # Explicaciones
                 elsif l =~ /^[A-Z]/
-                    new.push("\n" + avoid_endash(l))
+                    new.push("\n" + l)
                 # Dependencias / Tipos
                 else
                     # Evita que se quede como línea de código el tipo y su descripción
@@ -129,7 +128,7 @@ def create_md tool
                     l.split(/\s+/).each_with_index do |ll, i|
                         # Solo la primera palabra se va como código
                         if i == 0
-                            l_final.push('* `' + avoid_endash(ll) + '`')
+                            l_final.push('* `' + ll + '`')
                         # El resto de las palabras se quedan como texto
                         else
                             l_final.push(ll)
@@ -285,4 +284,5 @@ Dir.glob('../../md/*').each do |f|
     end
 end
 
-puts Dir.pwd
+# Copia los man al repositorio de Pecas
+FileUtils.cp_r('../../man', '../../../pecas/docs')

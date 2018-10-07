@@ -21,8 +21,8 @@ pc-tiff2pdf -d [directorio] -l [idioma] -o [nombre del archivo]
 ## Parámetros opcionales:
 
 * `-d` = [directory] Directorio que contiene las imágenes.
-* `\--tif` = Crea un +++TIF+++ que contiene todas las imágenes.
-* `\--txt` = Crea un +++TXT+++ adicional al +++PDF+++ creado.
+* `--tif` = Crea un +++TIF+++ que contiene todas las imágenes.
+* `--txt` = Crea un +++TXT+++ adicional al +++PDF+++ creado.
 
 ## Parámetros únicos:
 

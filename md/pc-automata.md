@@ -27,12 +27,12 @@ pc-automata -f [archivo madre]
 
 ## Parámetro necesario para la inicialización
 
-* `\--init` = Crea la carpeta del proyecto y el archivo +++YAML+++ necesarios para la automatización.
+* `--init` = Crea la carpeta del proyecto y el archivo +++YAML+++ necesarios para la automatización.
 
 ## Parámetros opcionales para la inicialización
 
 * `-o` = [output] Nombre del proyecto.
-* `\--directory` = Directorio donde se creará el proyecto.
+* `--directory` = Directorio donde se creará el proyecto.
   
 ## Parámetro necesario para la automatización
 
@@ -48,27 +48,27 @@ pc-automata -f [archivo madre]
 * `-n` = [notes] Archivo con las notas en formato MD.
 * `-s` = [style sheet] Ruta al archivo +++CSS+++ que se desea incluir.
 * `-y` = [yaml] Ruta al archivo con los metadatos para el +++EPUB+++.
-* `\--fallbacks` = Ruta a la carpeta con los archivos con fallbacks que se desean incluir.
-* `\--index` = Índice con el que ha de comenzar la numeración de los archivos divididos.
-* `\--inner` = +++SOLO+++ +++HTML+++, incluye las notas al pie al final del archivo.
-* `\--reset` =  Resetea el contador de las notas al pie cada vez que se modifica un archivo.
-* `\--depth` = Número entero que indica el nivel de profundidad de la tabla de contenidos.
-* `\--section` = Divide el archivo madre cada &lt;section&gt;.
-* `\--rotate` = Permite rotación aleatoria de las palabras en la nube de palabras de 30° a 150°.
-* `\--with-indexes` = Incluye índices analíticos del `index-data.yaml`.
-* `\--two-columns` = Agrega estilo para desplegar dos columnas; en sintaxis tipo +++HTML+++ se despliega a partir de los 768px de ancho.
-* `\--resize` = Redimensiona las imágenes con un tamaño predeterminado de 640px para cuadradas u horizontales, y 320px para verticales.
-* `\--resize-h` = Redimensiona las imágenes cuadradas u horizontales con el tamaño especificado.
-* `\--resize-v` = Redimensiona las imágenes verticales con el tamaño especificado.
-* `\--compress` = Comprime las imágenes.
-* `\--no-alphabet` = Evita añadir letras del alfabeto en la lista de términos, dejando un espacio en su lugar.
-* `\--no-pre` = [preliminary] Evita la creación de contenidos preliminares (portada, portadilla y legal).
-* `\--no-legacy` = Evita la conversión de +++EPUB+++ a una versión anterior.
-* `\--no-analytics` = Evita la creación de analítica.
-* `\--no-epubcheck` = Evita la verificación de EpubCheck.
-* `\--no-ace` = Evita la verificación de +++ACE+++.
-* `\--no-kindlegen` = Evita la creación del +++MOBI+++ con KindleGen.
-* `\--overwrite` = Sobrescribe los archivos sin dar advertencia.
+* `--fallbacks` = Ruta a la carpeta con los archivos con fallbacks que se desean incluir.
+* `--index` = Índice con el que ha de comenzar la numeración de los archivos divididos.
+* `--inner` = +++SOLO+++ +++HTML+++, incluye las notas al pie al final del archivo.
+* `--reset` =  Resetea el contador de las notas al pie cada vez que se modifica un archivo.
+* `--depth` = Número entero que indica el nivel de profundidad de la tabla de contenidos.
+* `--section` = Divide el archivo madre cada &lt;section&gt;.
+* `--rotate` = Permite rotación aleatoria de las palabras en la nube de palabras de 30° a 150°.
+* `--with-indexes` = Incluye índices analíticos del `index-data.yaml`.
+* `--two-columns` = Agrega estilo para desplegar dos columnas; en sintaxis tipo +++HTML+++ se despliega a partir de los 768px de ancho.
+* `--resize` = Redimensiona las imágenes con un tamaño predeterminado de 640px para cuadradas u horizontales, y 320px para verticales.
+* `--resize-h` = Redimensiona las imágenes cuadradas u horizontales con el tamaño especificado.
+* `--resize-v` = Redimensiona las imágenes verticales con el tamaño especificado.
+* `--compress` = Comprime las imágenes.
+* `--no-alphabet` = Evita añadir letras del alfabeto en la lista de términos, dejando un espacio en su lugar.
+* `--no-pre` = [preliminary] Evita la creación de contenidos preliminares (portada, portadilla y legal).
+* `--no-legacy` = Evita la conversión de +++EPUB+++ a una versión anterior.
+* `--no-analytics` = Evita la creación de analítica.
+* `--no-epubcheck` = Evita la verificación de EpubCheck.
+* `--no-ace` = Evita la verificación de +++ACE+++.
+* `--no-kindlegen` = Evita la creación del +++MOBI+++ con KindleGen.
+* `--overwrite` = Sobrescribe los archivos sin dar advertencia.
 
 ## Parámetros únicos:
 

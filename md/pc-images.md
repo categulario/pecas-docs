@@ -15,10 +15,10 @@ pc-images
 ## Parámetros opcionales:
 
 * `-i` = [images] Ruta a la carpeta con las imágenes.
-* `\--resize` = Redimensiona las imágenes con un tamaño predeterminado de 640px para cuadradas u horizontales, y 320px para verticales.
-* `\--resize-h` = Redimensiona las imágenes cuadradas u horizontales con el tamaño especificado.
-* `\--resize-v` = Redimensiona las imágenes verticales con el tamaño especificado.
-* `\--compress` = Comprime las imágenes.
+* `--resize` = Redimensiona las imágenes con un tamaño predeterminado de 640px para cuadradas u horizontales, y 320px para verticales.
+* `--resize-h` = Redimensiona las imágenes cuadradas u horizontales con el tamaño especificado.
+* `--resize-v` = Redimensiona las imágenes verticales con el tamaño especificado.
+* `--compress` = Comprime las imágenes.
 
 ## Parámetros únicos:
 

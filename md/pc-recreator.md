@@ -16,7 +16,7 @@ pc-recreator
 
 * `-d` = [directory] Directorio del proyecto +++EPUB+++.
 * `-y` = [yaml] Archivo de los metadatos para el +++EPUB+++.
-* `\--depth` = Número entero que indica el nivel de profundidad de la tabla de contenidos.
+* `--depth` = Número entero que indica el nivel de profundidad de la tabla de contenidos.
   
 ## Parámetros únicos:
 

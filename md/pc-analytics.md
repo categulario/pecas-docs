@@ -19,10 +19,10 @@ pc-analytics -f [archivo]
 
 ## Parámetros opcionales:
 
-* `\--deep` = Realiza un análisis profundo del archivo.
-* `\--json` = Crea una salida del análisis en formato +++JSON+++.
-* `\--yaml` = Crea una salida del análisis en formato +++YAML+++.
-* `\--rotate` = Permite rotación aleatoria de las palabras en la nube de palbras de 30° a 150°.
+* `--deep` = Realiza un análisis profundo del archivo.
+* `--json` = Crea una salida del análisis en formato +++JSON+++.
+* `--yaml` = Crea una salida del análisis en formato +++YAML+++.
+* `--rotate` = Permite rotación aleatoria de las palabras en la nube de palbras de 30° a 150°.
 
 ## Parámetros únicos:
 
@@ -43,7 +43,7 @@ Analiza el `archivo.epub` y crea una salida +++HTML+++ con el análisis básico,
 pc-analytics -f directorio/al/archivo.epub --deep
 ```
 
-Semejante al ejemplo anterior pero además crea un análisis profundo, solo visible en +++JSON+++ o +++YAML+++; se crea un +++JSON+++ si no se especificó `\--json` o `\--yaml`.
+Semejante al ejemplo anterior pero además crea un análisis profundo, solo visible en +++JSON+++ o +++YAML+++; se crea un +++JSON+++ si no se especificó `--json` o `--yaml`.
 
 ## Ejemplo con análisis profundo y rotación:
 

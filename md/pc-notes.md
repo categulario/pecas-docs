@@ -16,8 +16,8 @@ pc-notes -n [archivo con las notas]
 
 * `-d` = [directory] Directorio donde se encuentran los archivos para añadir las notas.
 * `-s` = [style sheet] +++SOLO+++ +++HTML+++, Ruta al archivo +++CSS+++ que se desea incluir.
-* `\--reset` =  Resetea el contador cada vez que se modifica un archivo.
-* `\--inner` = +++SOLO+++ +++HTML+++, incluye las notas al pie al final del archivo.
+* `--reset` =  Resetea el contador cada vez que se modifica un archivo.
+* `--inner` = +++SOLO+++ +++HTML+++, incluye las notas al pie al final del archivo.
 
 ## Parámetros únicos:
 
@@ -46,7 +46,7 @@ Añade las notas presentes en `notas.md` a los archivos que se encuentren en `di
 pc-recreator -n directorio/a/notas.md -d directorio/html -s ruta/al/archivo.css
 ```
 
-Igual que el ejemplo anterior pero se añade una hoja de estilo; ojo: se ignora si hay `\--inner`.
+Igual que el ejemplo anterior pero se añade una hoja de estilo; ojo: se ignora si hay `--inner`.
   
 ## Ejemplo con un directorio específico y reseteo de la numeración:
 
