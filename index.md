@@ -2,8 +2,7 @@
 
 Pecas es un conjunto de _scripts_ que agilizan varios de los procesos 
 del quehacer editorial. Las herramientas están en [desarrollo continuo](https://es.wikipedia.org/wiki/Liberaci%C3%B3n_continua)
-y siguen el modelo del [_single source and online publishing_](html/flujo_general.html),
-cuya propuesta metodológica es la [edición ramificada](https://ed.cliteratu.re/).
+y siguien la propuesta metodológica de la [edición ramificada](https://ed.cliteratu.re/).
 
 ## Instalación
 
