@@ -129,6 +129,7 @@ siguientes paquetes:
 * `tesseract-ocr-spa`. Es el diccionario en español para `tesseract-ocr`.
 * `libtiff6`. Biblioteca para poder utilizar diversas herramientas para imágenes +++TIFF+++
 * `tiff`. Conjunto de herramientas para imágenes +++TIFF+++ que utiliza `libtiff6`.
+* `nano`. Editor de texto desde la terminal.
 * `make`. Solo si se desea instalar [sexy-bash-prompt](https://github.com/NikaZhenya/sexy-bash-prompt).
 
 Una vez instalado, desde Cygwin instala una gema de Ruby ejecutando: 
